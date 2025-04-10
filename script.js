@@ -1,5 +1,5 @@
 let contador = 0;
 function incrementar() {
-  contador++;
+  contador+=2;
   document.getElementById("contador").textContent = contador;
 }
